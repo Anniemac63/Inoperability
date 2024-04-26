@@ -1,0 +1,59 @@
+PS C:\Users\Pione\OneDrive\Desktop\My_First_API> & C:/Users/Pione/AppData/Local/Programs/Python/Python39/python.exe c:/Users/Pione/OneDrive/Desktop/My_First_API/main.py
+Traceback (most recent call last):
+  File "c:\Users\Pione\OneDrive\Desktop\My_First_API\main.py", line 2, in <module>
+    from flask_restful import Api, Resource
+ModuleNotFoundError: No module named 'flask_restful'
+PS C:\Users\Pione\OneDrive\Desktop\My_First_API> pip install flask-restful
+Requirement already satisfied: flask-restful in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (0.3.8)
+Requirement already satisfied: pytz in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from flask-restful) (2020.1)
+Requirement already satisfied: aniso8601>=0.82 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from flask-restful) (8.0.0)
+Requirement already satisfied: Flask>=0.8 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from flask-restful) (3.0.3)
+Requirement already satisfied: six>=1.3.0 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from flask-restful) (1.15.0)
+Requirement already satisfied: itsdangerous>=2.1.2 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask-restful) (2.2.0)
+Requirement already satisfied: Jinja2>=3.1.2 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask-restful) (3.1.3)
+Requirement already satisfied: click>=8.1.3 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask-restful) (8.1.7)
+Requirement already satisfied: importlib-metadata>=3.6.0 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask-restful) (4.11.3)
+Requirement already satisfied: blinker>=1.6.2 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask-restful) (1.7.0)
+Requirement already satisfied: Werkzeug>=3.0.0 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask-restful) (3.0.2)
+Requirement already satisfied: colorama in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from click>=8.1.3->Flask>=0.8->flask-restful) (0.4.4)
+Requirement already satisfied: zipp>=0.5 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from importlib-metadata>=3.6.0->Flask>=0.8->flask-restful) (3.7.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Jinja2>=3.1.2->Flask>=0.8->flask-restful) (2.1.5)
+PS C:\Users\Pione\OneDrive\Desktop\My_First_API> & C:/Users/Pione/AppData/Local/Programs/Python/Python39/python.exe c:/Users/Pione/OneDrive/Desktop/My_First_API/main.py
+Traceback (most recent call last):
+  File "c:\Users\Pione\OneDrive\Desktop\My_First_API\main.py", line 2, in <module>
+    from flask_restful import Api, Resource
+ModuleNotFoundError: No module named 'flask_restful'
+PS C:\Users\Pione\OneDrive\Desktop\My_First_API> python app.py
+Traceback (most recent call last):
+  File "C:\Users\Pione\OneDrive\Desktop\My_First_API\app.py", line 5, in <module>
+    api = Api(app)
+NameError: name 'Api' is not defined
+PS C:\Users\Pione\OneDrive\Desktop\My_First_API> python main.py
+Traceback (most recent call last):
+  File "C:\Users\Pione\OneDrive\Desktop\My_First_API\main.py", line 2, in <module>
+    from flask_restful import Api, Resource
+  File "C:\Users\Pione\OneDrive\ANACONDA VS CODE RXDX2\lib\site-packages\flask_restful\__init__.py", line 14, in <module>
+    from flask.helpers import _endpoint_from_view_func
+ImportError: cannot import name '_endpoint_from_view_func' from 'flask.helpers' (C:\Users\Pione\OneDrive\ANACONDA VS CODE RXDX2\lib\site-packages\flask\helpers.py)
+PS C:\Users\Pione\OneDrive\Desktop\My_First_API> & C:/Users/Pione/AppData/Local/Programs/Python/Python39/python.exe c:/Users/Pione/OneDrive/Desktop/My_First_API/main.py
+Traceback (most recent call last):
+  File "c:\Users\Pione\OneDrive\Desktop\My_First_API\main.py", line 2, in <module>
+    from flask_restful import Api, Resource, reqparse
+ModuleNotFoundError: No module named 'flask_restful'
+PS C:\Users\Pione\OneDrive\Desktop\My_First_API> pip install flask_restful
+Requirement already satisfied: flask_restful in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (0.3.8)
+Requirement already satisfied: six>=1.3.0 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from flask_restful) (1.15.0)
+Requirement already satisfied: aniso8601>=0.82 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from flask_restful) (8.0.0)
+Requirement already satisfied: pytz in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from flask_restful) (2020.1)
+Requirement already satisfied: Flask>=0.8 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from flask_restful) (3.0.3)
+Requirement already satisfied: importlib-metadata>=3.6.0 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask_restful) (4.11.3)
+Requirement already satisfied: Jinja2>=3.1.2 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask_restful) (3.1.3)
+Requirement already satisfied: itsdangerous>=2.1.2 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask_restful) (2.2.0)
+Requirement already satisfied: click>=8.1.3 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask_restful) (8.1.7)
+Requirement already satisfied: blinker>=1.6.2 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask_restful) (1.7.0)
+Requirement already satisfied: Werkzeug>=3.0.0 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Flask>=0.8->flask_restful) (3.0.2)
+Requirement already satisfied: colorama in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from click>=8.1.3->Flask>=0.8->flask_restful) (0.4.4)
+Requirement already satisfied: zipp>=0.5 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from importlib-metadata>=3.6.0->Flask>=0.8->flask_restful) (3.7.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (from Jinja2>=3.1.2->Flask>=0.8->flask_restful) (2.1.5)
+PS C:\Users\Pione\OneDrive\Desktop\My_First_API> pip install SQLAlchemy
+Requirement already satisfied: SQLAlchemy in c:\users\pione\onedrive\anaconda vs code rxdx2\lib\site-packages (1.3.18)
